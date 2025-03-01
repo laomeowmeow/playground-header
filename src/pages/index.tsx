@@ -81,7 +81,7 @@ export default function HomePage() {
 
         {/* Responsive Grid Layout */}
         <Grid container spacing={3} sx={{ mt: 2 }}>
-          {[1, 2].map((item) => (
+          {[1, 2, 3, 4, 5].map((item) => (
             <Grid item xs={12} sm={6} key={item}>
               <Box
                 sx={{
